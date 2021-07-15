@@ -1,7 +1,7 @@
 import org.openrndr.application
 import org.openrndr.color.ColorRGBa
 import org.openrndr.draw.colorBuffer
-import org.openrndr.ffmpeg.loadVideo
+import org.openrndr.ffmpeg.loadVideoDevice
 import org.openrndr.shape.IntRectangle
 import kotlin.math.max
 
