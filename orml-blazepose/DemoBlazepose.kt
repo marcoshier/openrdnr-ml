@@ -31,7 +31,7 @@ fun  main() = application {
 
 
     program {
-        val video = loadVideo("demo-data/jrn.mp4")
+        val video = loadVideoDevice()
         video.play()
 
         video.ended.listen {
