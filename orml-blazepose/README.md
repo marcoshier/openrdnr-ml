@@ -6,7 +6,7 @@ A list of these parts was hard-coded at the start referencing this [image](https
 
 
 
-![blazepose-demo-image](https://github.com/marcoshier/openrdnr-ml/data/img/blazepose.png)
+![blazepose-demo-image](https://github.com/marcoshier/openrndr-ml/data/img/blazepose.png)
 
 
 
