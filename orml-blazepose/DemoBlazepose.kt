@@ -80,8 +80,8 @@ fun  main() = application {
                     drawer.stroke = ColorRGBa.PINK
                     drawer.strokeWeight = 3.0
 
-                    val firstPart = lms.elementAt(connection.first)
-                    val secondPart = lms.elementAt(connection.second)
+                    val firstPart = lms[connection.first]
+                    val secondPart = lms[connection.second]
                     drawer.lineSegment(firstPart.imagePosition, secondPart.imagePosition)
 
                 }
