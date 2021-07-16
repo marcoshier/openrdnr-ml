@@ -1,4 +1,4 @@
-#orml-bodypix
+# orml-bodypix
 
 Working bodypix example. To change the color (ColorBuffer is R channel only) I imported the ColorCorrection filter by adding `implementation "org.openrndr.extra:orx-fx:$orxVersion"` to the build.gradle.ts file under the dependencies.
 
