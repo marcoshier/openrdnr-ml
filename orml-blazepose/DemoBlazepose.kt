@@ -1,7 +1,7 @@
 import org.openrndr.application
 import org.openrndr.color.ColorRGBa
 import org.openrndr.draw.colorBuffer
-import org.openrndr.ffmpeg.loadVideo
+import org.openrndr.ffmpeg.loadVideoDevice
 import org.openrndr.shape.IntRectangle
 import kotlin.math.max
 
@@ -31,7 +31,7 @@ fun  main() = application {
 
 
     program {
-        val video = loadVideo("demo-data/jrn.mp4")
+        val video = loadVideoDevice()
         video.play()
 
         video.ended.listen {
@@ -80,8 +80,8 @@ fun  main() = application {
                     drawer.stroke = ColorRGBa.PINK
                     drawer.strokeWeight = 3.0
 
-                    val firstPart = lms.elementAt(connection.first)
-                    val secondPart = lms.elementAt(connection.second)
+                    val firstPart = lms[connection.first]
+                    val secondPart = lms[connection.second]
                     drawer.lineSegment(firstPart.imagePosition, secondPart.imagePosition)
 
                 }
