@@ -10,5 +10,5 @@ A list of these parts was hard-coded at the start referencing this [image](https
 
 
 
-
-
+### Blazepose2
+![blazepose-demo-image](https://github.com/marcoshier/openrndr-ml/blob/main/data/img/Blazepose2.png)
