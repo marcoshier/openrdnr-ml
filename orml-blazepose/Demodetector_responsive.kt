@@ -50,7 +50,6 @@ fun main() = application {
             blazeposeRt.clearColor(0, ColorRGBa.BLACK)
 
             video.draw(drawer, blind = true)
-            videoRt.clearColor(0, ColorRGBa.BLUE)
             videoImage.copyTo(videoRt.colorBuffer(0))
 
             val regions = detector.detect(videoRt.colorBuffer(0))
